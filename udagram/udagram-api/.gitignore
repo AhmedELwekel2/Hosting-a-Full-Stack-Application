@@ -33,7 +33,7 @@ logfile
 
 .DS_Store
 Thumbs.db
-UserInterfaceState.xcuserstate
+UserInterfaceState.xcuserstate 
 node_modules
 venv/
 .env
