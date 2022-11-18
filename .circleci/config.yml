@@ -19,13 +19,14 @@ jobs:
       - run:
           name: Install Front-End Dependencies
           command: |
-         
             npm run frontend:install
+         
+            
               
       - run:
           name: Install API Dependencies
           command: |
-          npm run api:install  
+            npm run api:install  
      
       - run:
           name: Front-End Lint
