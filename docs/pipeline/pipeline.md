@@ -1,11 +1,11 @@
-the pipline process 
+-the pipline process 
 
-1-the developer push the project to github repo
-2-circleci start the pipline process
-3- 1-install frontend dependecies 
-   2-install api dependecies
-   3-build the frontend and the api
-   4-if everything is fine the project will be hold for your approval to deploy
-   5-if you approve the frontend will be deployed to s3 bucket:your bucket the api will be deployed to eb environment called :your environment
-
-4-the s3 bucket will recieve data from eb and the eb recieve data from RDS    
+1-open yout github account 
+2-connect your circleci with your github account
+3-follow your repo
+4-config your environment variable on circleci
+5- you push the project to github the auto deploy pipline run 
+6-the pipline install frontend dependecies then install api dependecies then build the frontend then the api then if there is no proplem the project will be on hold for your approval to deploy 
+7-if you choose to deploy the api would be deployed to elastic benstalk environment you created 
+and the frontend to S3 you created 
+8-then the application is deployed and the frontend and backend and database are connected
